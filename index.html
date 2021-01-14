@@ -15,13 +15,15 @@
 
     <main>
       <h1>Welcome to Alex Lin's GitHub Pages for Lab 2!</h1>
+      <audio src="audio/bensound-relaxing-lowest.mp3" loop controls></audio>
+
       <hr />
       <section>
         <h2>About Me</h2>
 
         <figure>
           <figcaption>That's me!</figcaption>
-          <img alt="Image Not Found" , src="img/me.jpg" />
+          <img alt="Image Not Found" src="img/me.jpg" />
         </figure>
 
         <pre>
@@ -37,6 +39,15 @@ Favorite line of code:
             I have a passion for <span>Software Development</span>
             and love researching and learning new technologies.
           </p>
+
+          <picture>
+            <source
+              media="(min-width:700px)"
+              alt="img"
+              srcset="img/ucsd2.jpg"
+            />
+            <img alt="img" src="img/ucsd_logo.png" />
+          </picture>
         </div>
 
         <div>
@@ -56,12 +67,13 @@ Favorite line of code:
             <li>Video Games</li>
             <li>Chess</li>
           </ol>
+
           <table>
             <caption>
-              Favorite Video Games
+              <b>Favorite Video Games</b>
             </caption>
             <colgroup>
-              <col title="Columns!" ,span="3" />
+              <col title="Columns!" span="3" />
             </colgroup>
             <tr>
               <th>Action</th>
@@ -94,6 +106,13 @@ Favorite line of code:
               <td>Bloodborne</td>
             </tr>
           </table>
+
+          <h3>Steam Profile</h3>
+          <iframe
+            src="https://steamcommunity.com/id/c9meepo"
+            width="80%"
+            height="300"
+          ></iframe>
         </div>
       </section>
 
@@ -128,11 +147,16 @@ Favorite line of code:
             </ul>
           </li>
         </ol>
+        <p>I'm well rounded</p>
+        <svg width="200" height="200">
+          <circle cx="100" cy="100" r="100" stroke="black" fill="red" />
+        </svg>
       </section>
 
       <hr />
 
-      <section></section>
+      <video src="video/cute.mp4" autoplay loop height="500"></video>
+      <canvas>This is supposed to be a canvas but I can't use JS yet </canvas>
     </main>
     <footer>Thank you for coming!</footer>
   </body>

@@ -39,6 +39,9 @@ a:visited {
 .menu a:hover {
   color: gray;
 }
+.menu a:active {
+  color: white;
+}
 .music_player {
   margin: 3mm 0;
   opacity: 0.8;

@@ -20,11 +20,10 @@ header {
   text-shadow: 1.75px 1.75px black;
 }
 p.quote {
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   margin-bottom: 1.5em;
 }
 
-}
 nav.menu {
   margin: 0.5cm;
 }
@@ -58,6 +57,9 @@ main {
   max-width: 800px;
   line-height: 1.6em;
   font-size: 16px;
+}
+p {
+  display: inline-block;
 }
 section {
   margin: 1em 0em;

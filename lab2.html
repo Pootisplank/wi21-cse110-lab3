@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Alex Lin's User Site</title>
+    <meta name="description" content="GitHub user site using HTML!" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="https://pootisplank.github.io/">Lab1</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Welcome to Alex Lin's GitHub Pages for Lab 2!</h1>
+      <audio src="audio/bensound-relaxing-lowest.mp3" loop controls></audio>
+
+      <hr />
+      <section>
+        <h2>About Me</h2>
+
+        <figure>
+          <figcaption>That's me!</figcaption>
+          <img alt="Image Not Found" src="img/me.jpg" />
+        </figure>
+
+        <pre>
+Favorite line of code: 
+    <code>System.out.println("Hello World!");</code>
+        </pre>
+
+        <div>
+          <p>
+            I am a <em>third year</em> student at
+            <i>Univeristy of California San Diego</i> studying
+            <b>Computer Science</b>. <br />
+            I have a passion for <span>Software Development</span>
+            and love researching and learning new technologies.
+          </p>
+
+          <picture>
+            <source media="(min-width:700px)" srcset="img/ucsd2.jpg" />
+            <img alt="img" src="img/ucsd_logo.png" />
+          </picture>
+        </div>
+
+        <div>
+          <h3>Current interests</h3>
+          <ol>
+            <li>Web Development - Frontend and Backend</li>
+            <li><strong>JavaScript</strong></li>
+            <li>Golang</li>
+          </ol>
+          <aside>Always trying to learn new things!</aside>
+
+          <h3>Hobbies</h3>
+          <ol>
+            <li>Running</li>
+            <li>Drawing</li>
+            <li>Piano</li>
+            <li>Video Games</li>
+            <li>Chess</li>
+          </ol>
+
+          <template id="fav-videogames">
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </template>
+
+          <table>
+            <caption>
+              <b>Favorite Video Games</b>
+            </caption>
+            <colgroup>
+              <col title="Columns!" span="3" />
+            </colgroup>
+            <tr>
+              <th>Action</th>
+              <th>ARPG</th>
+              <th>FromSoftware (Ranked)</th>
+            </tr>
+            <tr>
+              <td>Halo</td>
+              <td>Path of Exile</td>
+              <td>Dark Souls 3</td>
+            </tr>
+            <tr>
+              <td>Monster Hunter</td>
+              <td>Diablo 3</td>
+              <td>Sekiro:Shadows Die Twice</td>
+            </tr>
+            <tr>
+              <td>League of Legends</td>
+              <td></td>
+              <td>Dark Souls 1</td>
+            </tr>
+            <tr>
+              <td>Terraria</td>
+              <td></td>
+              <td>Dark Souls 2</td>
+            </tr>
+            <tr>
+              <td>Minecraft</td>
+              <td></td>
+              <td>Bloodborne</td>
+            </tr>
+          </table>
+
+          <h3>Steam Profile</h3>
+          <iframe
+            src="https://steamcommunity.com/id/c9meepo"
+            width="1000"
+            height="300"
+          ></iframe>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <details>
+            <summary>Computer Specs</summary>
+            <ul>
+              <li>CPU: i7-4970</li>
+              <li>GPU: GTX 1060 6GB</li>
+              <li>RAM: 16GB DDR3</li>
+              <li>SSD: Samsung 860 EVO 500GB</li>
+              <li>HDD: Seagate 2TB</li>
+            </ul>
+          </details>
+        </div>
+        <button name="button" id="button" type="button">Useless Button!</button>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Links</h2>
+        <a href="https://www.linkedin.com/in/alex-lin0/">Linkedin</a> <br />
+        <a href="https://github.com/Pootisplank/">GitHub</a> <br />
+        <a href="resume.pdf">Resume</a>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <ol>
+          <li>
+            Programming Languages
+            <ul>
+              <li>Python, Java, C++, JavaScript</li>
+            </ul>
+          </li>
+          <li>
+            Data Management
+            <ul>
+              <li>MongoDB, MySQL</li>
+            </ul>
+          </li>
+          <li>
+            Other
+            <ul>
+              <li>Agile, Git/GitHub, PowerBi</li>
+            </ul>
+          </li>
+        </ol>
+        <p>I'm well rounded</p>
+        <svg width="200" height="200">
+          <circle cx="100" cy="100" r="100" stroke="black" fill="red" />
+        </svg>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Apply Here</h2>
+        <form autocomplete="on">
+          <div class="application">
+            <label>
+              Name:
+              <input type="text" name="submitted-name" id="name" />
+            </label>
+          </div>
+          <div class="application">
+            <label>
+              Date:
+              <input type="date" name="date" id="date" />
+            </label>
+          </div>
+          <div class="application">
+            <label>
+              Date of Birth(M/Y)
+              <input type="month" name="birthday" id="birthday" />
+            </label>
+          </div>
+          <div class="application">
+            Gender:
+            <select id="gender">
+              <optgroup label="Select One">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="application">
+            <label>
+              Phone Number:
+              <input type="tel" name="phone" id="phone" />
+            </label>
+          </div>
+          <div class="application">
+            <label>
+              Favorite Color:
+              <input type="color" name="fav-color" id="fav-color" />
+            </label>
+          </div>
+          <div class="application">
+            <label>
+              Favorite Ice Cream Flavor:
+              <input list="fav-flavor" id="flavors" name="flavors" />
+              <datalist id="fav-flavor">
+                <option>Vanilla</option>
+                <option>Strawberry</option>
+                <option>Chocolate</option>
+                <option>Mint Chocolate Chip</option>
+                <option>Cookies and Cream</option>
+              </datalist>
+            </label>
+          </div>
+          <div class="application">
+            <label>
+              Email:
+              <input type="email" name="email" id="email" />
+            </label>
+          </div>
+          <div class="application">
+            <label>
+              Website:
+              <input type="url" name="website" id="website" />
+            </label>
+          </div>
+          <div class="application">
+            <label>
+              Resume:
+              <input type="file" name="resume" id="resume" />
+            </label>
+          </div>
+          <br />
+          <div class="application">
+            <fieldset>
+              <legend>Select the role you are applying for.</legend>
+              <label>
+                Software Engineer
+                <input type="radio" name="role" id="role" />
+              </label>
+              <label>
+                DevOps Engineer
+                <input type="radio" name="devops" id="devops" />
+              </label>
+              <label>
+                Cybersecurity Engineer
+                <input type="radio" name="cyber" id="cyber" />
+              </label>
+            </fieldset>
+          </div>
+          <br />
+          Select the locations you want to apply to.
+          <div class="application">
+            <label>
+              San Francisco
+              <input type="checkbox" name="sf" id="sf" />
+            </label>
+            <label>
+              New York
+              <input type="checkbox" name="ny" id="ny" />
+            </label>
+          </div>
+          <br />
+          <div class="application">
+            Anything else you want us to know?<br />
+            <label>
+              <textarea
+                id="comments"
+                name="comments"
+                rows="10"
+                cols="35"
+              ></textarea>
+            </label>
+          </div>
+          <div class="application">
+            <label>
+              <input type="submit" name="submit" id="submit" />
+            </label>
+          </div>
+        </form>
+      </section>
+
+      <hr />
+
+      <video src="video/cute.mp4" autoplay loop height="500"></video>
+      <canvas>This is supposed to be a canvas but I can't use JS yet </canvas>
+    </main>
+    <footer>Thank you for coming!</footer>
+  </body>
+</html>

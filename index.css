@@ -1,14 +1,14 @@
 /* Body */
 body {
-  color: #fff;
-  background-color: #353739;
+  color: #ffffff;
+  background-color: hsl(210, 4%, 22%);
   display: block;
 }
 
 /* Header and nav links */
 header {
   margin: 2.5em 3em 0em;
-  color: rgb(221, 219, 219);
+  color: rgb(221, 219, 218);
   text-align: center;
 }
 #main_title {
@@ -24,14 +24,14 @@ nav.menu {
 }
 .menu a:link,
 a:visited {
-  color: rgb(172, 171, 171);
+  color: rgba(172, 171, 171, 0.9);
   text-decoration: none;
   margin-left: 1.5em;
   margin-right: 1.5em;
   font-size: 18px;
 }
 .menu a:hover {
-  color: lightgray;
+  color: gray;
 }
 .music_player {
   margin: 1em 0;
@@ -62,7 +62,7 @@ section > h2 {
 h2 ~ p,
 h3 ~ p {
   padding-left: 0.5em;
-  background-color: rgb(104, 103, 103);
+  background-color: hsla(0, 0%, 33%, 0.5);
 }
 img[src="img/me.jpg"] {
   margin: 1em 0em;

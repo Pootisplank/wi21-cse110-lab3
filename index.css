@@ -68,6 +68,11 @@ main hr {
   max-width: 800px;
   margin: 2em auto;
 }
+@media screen and (max-width: 1050px) {
+  .ucsd-fixed {
+    display: none;
+  }
+}
 /* Flex Container */
 .flex-container {
   flex-wrap: wrap;

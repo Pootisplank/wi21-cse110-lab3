@@ -66,6 +66,9 @@ h3 ~ p {
   background-color: hsla(0, 0%, 33%, 0.45);
 }
 img[src="img/me.jpg"] {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 2px;
   margin: 1em 0em;
 }
 /* Indenting lists */
@@ -79,5 +82,5 @@ ol li {
 }
 /* Using adjacent sibling selector. */
 hr + video {
-  border-radius: 16px;
+  border-radius: 10px;
 }

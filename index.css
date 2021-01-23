@@ -67,20 +67,6 @@ main hr {
   max-width: 800px;
   margin: 2em auto;
 }
-.flex-container {
-  flex-wrap: wrap;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 800px;
-}
-.flex-container > * {
-  background-color: hsla(0, 0%, 33%, 0.45);
-  flex-grow: 1;
-  margin: 0.5em;
-  padding: 1em;
-  border-radius: 10px;
-}
 p {
   display: inline-block;
 }
@@ -97,7 +83,7 @@ section > h2 {
 h2 ~ p,
 h3 ~ p {
   padding: 0.3em 0.5em;
-  border-radius: 10px;
+  background-color: hsla(0, 0%, 33%, 0.45);
 }
 img[src="img/me.jpg"] {
   border-style: solid;

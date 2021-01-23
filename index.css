@@ -45,7 +45,10 @@ hr {
 
 /* Main content. */
 main {
-  margin: 1em auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: auto;
+  margin-left: auto;
   max-width: 800px;
   line-height: 1.6em;
   font-size: 16px;
@@ -62,7 +65,7 @@ section > h2 {
 /* General sibling combinator on paragraphs. */
 h2 ~ p,
 h3 ~ p {
-  padding-left: 0.5em;
+  padding: 0.3em 0.5em;
   background-color: hsla(0, 0%, 33%, 0.45);
 }
 img[src="img/me.jpg"] {
@@ -75,6 +78,9 @@ img[src="img/me.jpg"] {
 ol,
 ul {
   padding-left: 40px;
+  padding-right: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
 }
 /* Descendant Combinator on list items. */
 ol li {
@@ -83,4 +89,5 @@ ol li {
 /* Using adjacent sibling selector. */
 hr + video {
   border-radius: 10px;
+  height: 400px;
 }

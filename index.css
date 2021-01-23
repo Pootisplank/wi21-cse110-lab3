@@ -10,6 +10,7 @@ header {
   margin: 2.5em 3em 0em;
   color: rgb(221, 219, 218);
   text-align: center;
+  position: static;
 }
 #main_title {
   margin: 0em 0.2em 0.4em 0.2em;

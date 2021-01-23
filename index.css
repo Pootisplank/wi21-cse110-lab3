@@ -19,6 +19,12 @@ header {
   font-weight: bold;
   text-shadow: 1.75px 1.75px black;
 }
+p.quote {
+  font-family: 'Fraunces', serif;
+  margin-bottom: 1.5em;
+}
+
+}
 nav.menu {
   margin: 0.5cm;
 }

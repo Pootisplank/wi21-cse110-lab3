@@ -19,6 +19,7 @@ header {
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1.75px 1.75px black;
+  color: white;
 }
 p.quote {
   font-family: "Fraunces", serif;
@@ -67,6 +68,7 @@ main hr {
   max-width: 800px;
   margin: 2em auto;
 }
+/* Flex Container */
 .flex-container {
   flex-wrap: wrap;
   display: flex;
@@ -74,12 +76,102 @@ main hr {
   justify-content: space-between;
   max-width: 800px;
 }
+/* Flex Items */
 .flex-container > * {
   background-color: hsla(0, 0%, 33%, 0.45);
   flex-grow: 1;
   margin: 0.5em;
   padding: 1em;
   border-radius: 10px;
+}
+/* Grid Container */
+.grid-container {
+  display: grid;
+  margin: 1em 0em;
+  grid-template-rows: repeat(7, 15%);
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0em;
+  min-height: 350px;
+  grid-template-areas:
+    "grid-title grid-title grid-title"
+    "attribute1 attribute2 attribute3"
+    "game1 game2 game3"
+    "game4 game5 game6"
+    "game7 game8 game9"
+    "game10 game11 game12"
+    "game13 game14 game15";
+  background-color: hsla(0, 0%, 33%, 0.45);
+  border-radius: 10px;
+}
+.grid-container > span {
+  justify-content: center;
+  display: flex;
+  align-items: top;
+}
+.grid-title {
+  grid-area: grid-title;
+  align-items: center;
+}
+.attribute1 {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  grid-area: attribute1;
+}
+.attribute2 {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  grid-area: attribute2;
+}
+.attribute3 {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  grid-area: attribute3;
+}
+
+.game1 {
+  grid-area: game1;
+}
+.game2 {
+  grid-area: game2;
+}
+.game3 {
+  grid-area: game3;
+}
+.game4 {
+  grid-area: game4;
+}
+.game5 {
+  grid-area: game5;
+}
+.game6 {
+  grid-area: game6;
+}
+.game7 {
+  grid-area: game7;
+}
+.game8 {
+  grid-area: game8;
+}
+.game9 {
+  grid-area: game9;
+}
+.game10 {
+  grid-area: game10;
+}
+.game11 {
+  grid-area: game11;
+}
+.game12 {
+  grid-area: game12;
+}
+.game13 {
+  grid-area: game13;
+}
+.game14 {
+  grid-area: game14;
+}
+.game15 {
+  grid-area: game15;
 }
 p {
   display: inline-block;
